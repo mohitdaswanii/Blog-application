@@ -51,7 +51,7 @@ hbs.registerHelper("constructDelete", function() {
     console.log(err.message)
     // res.send(err.message)
 })
-
-app.listen(5050,function(){
+const port=process.env.PORT ||5050
+app.listen(,function(){
     console.log("server started successfully")
 })
