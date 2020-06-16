@@ -12,17 +12,7 @@ var userNormalRoutes = require("./routes/userNormalRoute");
 
 require("./db")
 var app=express()
-// app.post("/file",upload.single("fileupload"),function(req,res){
-//   var imageContent=convertbuffer(req.file.originalname,req.file.buffer);
-//   cloudinary.uploader.upload(imageContent).then(function(imageresponse){
-//       console.log("dsds")
-//       console.log(imageresponse)
-//       var image = imageresponse.secure_url
-//       res.redirect("/register")
-//   }).catch(function(err){
-// console.log(err)
-//   })
-// })
+
 
 
 app.set("view engine","hbs")
